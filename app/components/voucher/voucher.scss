@@ -1,0 +1,66 @@
+@import 'assets/styles/colors';
+
+.voucher {
+  font-size: 14px;
+
+  .brand-img {
+    padding-top: 20px;
+
+    img {
+      border: 1px solid $neutralGrey;
+    }
+  }
+
+  .info {
+    font-size: 12px;
+    line-height: 8px;
+  }
+
+  .edit {
+    padding-top: 20px;
+
+    img {
+      display: block;
+      cursor: pointer;
+    }
+  }
+}
+
+.btns {
+  .decline,
+  .accept {
+    background-color: $serulianBlue;
+    margin-top: 10px;
+    padding: 15px 10px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    width: 69px;
+    height: 50px;
+  }
+
+  .decline {
+    background-color: $radicalRed;
+    margin-left: 10px;
+  }
+
+  .btn-pressed {
+    margin-top: 14px;
+    font-style: italic;
+  }
+}
+
+.editor {
+  .editor-left,
+  .editor-right {
+    display: inline-block;
+  }
+
+  .editor-right {
+    float: right;
+  }
+
+  input {
+    margin-top: 14px;
+  }
+}

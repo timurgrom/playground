@@ -1,0 +1,46 @@
+// prevent normalize.css to override material ui's buttons appearance.
+button,
+html [type='button'],
+[type='reset'],
+[type='submit'] {
+  /* stylelint-disable property-no-vendor-prefix */
+  -webkit-appearance: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  font: 100% $mainFont, sans-serif;
+}
+
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+button,
+select,
+textarea,
+input {
+  font-family: $mainFont, sans-serif;
+}
+
+html,
+body,
+.root-wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.root-wrap {
+  display: flex;
+}
